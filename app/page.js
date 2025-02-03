@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Countdown from "./countdown";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
     >
       <div class="flex flex-col flex-1 shrink justify-center items-center self-stretch px-20 py-8 my-auto w-full max-w-2xl basis-0  max-md:px-5 max-md:max-w-full">
         <div class="flex flex-col items-center max-w-full ">
-          <h1 class="self-stretch  w-full text-5xl leading-none text-center text-red-900 max-md:text-4xl">
+          <h1 class="self-stretch font-bold  w-full text-5xl leading-none text-center text-red-900 max-md:text-4xl">
             RedPool ISO
           </h1>
           <div
@@ -28,6 +29,7 @@ export default function Home() {
             role="timer"
             aria-live="polite"
           >
+            <Countdown targetDate="2025-02-31T00:00:00" />
             Launching in 25:16:52.....
           </div>
           <div class="self-stretch mt-6 text-base text-center text-red-800 max-md:mr-2 max-md:ml-1">
