@@ -4,19 +4,19 @@ import Countdown from "./countdown";
 export default function Home() {
   return (
     <div
-      class="flex w-full justify-center items-center bg-blac min-h-[900px] max-md:px-5 max-md:py-24"
+      class="flex w-full font-mono justify-center items-center bg-blac min-h-[900px] max-md:px-5 max-md:py-24"
       role="main"
     >
       <div class="flex flex-col flex-1 shrink justify-center items-center self-stretch px-20 py-8 my-auto w-full max-w-2xl basis-0  max-md:px-5 max-md:max-w-full">
         <div class="flex flex-col items-center max-w-full ">
-          <h1 class="self-stretch font-bold  w-full text-5xl leading-none text-center text-red-900 max-md:text-4xl">
+          <h1 class="self-stretch font-bold font-mono  w-full text-5xl leading-none text-center text-red-900 max-md:text-4xl">
             RedPool ISO
           </h1>
           <div
             class="mt-14 text-lg leading-loose text-center text-red-900 max-md:mt-10"
             aria-live="polite"
           >
-            WHAT IS IT DUMPING ?
+            WHY IS IT DUMPING ?
           </div>
           <div
             class="mt-5 text-sm leading-none text-center text-red-900"
@@ -40,7 +40,7 @@ export default function Home() {
             aria-label="Social Media Links"
           >
             <a
-              href="#"
+              href="https://x.com/thepoolisred"
               class="flex overflow-hidden flex-col justify-center items-center px-3 w-12 h-12 bg-white rounded-full shadow-lg min-h-[48px]"
               aria-label="Visit our first social media platform"
             >

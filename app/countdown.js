@@ -28,7 +28,7 @@ export default function Countdown({ targetDate }) {
   }, []);
 
   return (
-    <div className="text-gray-600 text-2xl font-mono text-center mt-6">
+    <div className="text-red-900 text-2xl font-mono text-center mt-6">
       Launching in {timeLeft.hours}:{timeLeft.minutes}:{timeLeft.seconds}...
     </div>
   );
