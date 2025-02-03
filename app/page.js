@@ -13,26 +13,25 @@ export default function Home() {
             RedPool ISO
           </h1>
           <div
-            class="mt-14 text-lg leading-loose text-center text-red-800 max-md:mt-10"
+            class="mt-14 text-lg leading-loose text-center text-red-900 max-md:mt-10"
             aria-live="polite"
           >
             WHAT IS IT DUMPING ?
           </div>
           <div
-            class="mt-5 text-sm leading-none text-center text-red-800"
+            class="mt-5 text-sm leading-none text-center text-red-900"
             aria-label="Program Description"
           >
             A Consistency Program
           </div>
           <div
-            class="mt-12 text-lg leading-loose text-center text-red-700 max-md:mt-10"
+            class="mt-12 text-lg leading-loose text-center text-red-900 max-md:mt-10"
             role="timer"
             aria-live="polite"
           >
             <Countdown targetDate="2025-02-31T00:00:00" />
-            Launching in 25:16:52.....
           </div>
-          <div class="self-stretch mt-6 text-base text-center text-red-800 max-md:mr-2 max-md:ml-1">
+          <div class="self-stretch mt-6 text-base text-center text-red-900 max-md:mr-2 max-md:ml-1">
             Stay updated on our social platforms:
           </div>
           <div
