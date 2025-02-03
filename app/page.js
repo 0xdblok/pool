@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div
-      class="flex justify-center items-center px-96 py-72 bg-blac min-h-[900px] max-md:px-5 max-md:py-24"
+      class="flex w-full justify-center items-center bg-blac min-h-[900px] max-md:px-5 max-md:py-24"
       role="main"
     >
-      <div class="flex flex-col flex-1 shrink justify-center items-center self-stretch px-20 py-8 my-auto w-full max-w-2xl basis-0 min-w-[240px] max-md:px-5 max-md:max-w-full">
-        <div class="flex flex-col items-center max-w-full w-[244px]">
-          <h1 class="self-stretch text-5xl leading-none text-center text-red-900 max-md:text-4xl">
+      <div class="flex flex-col flex-1 shrink justify-center items-center self-stretch px-20 py-8 my-auto w-full max-w-2xl basis-0  max-md:px-5 max-md:max-w-full">
+        <div class="flex flex-col items-center max-w-full ">
+          <h1 class="self-stretch  w-full text-5xl leading-none text-center text-red-900 max-md:text-4xl">
             RedPool ISO
           </h1>
           <div
